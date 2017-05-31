@@ -1,4 +1,4 @@
-package uml;
+package Modèle;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,6 +7,11 @@ public class Etagere {
 	private ArrayList <Document> listeDocuments;
 	private int nbDocMax;
 	
+	/**
+	 * 
+	 * @param listeDocuments
+	 * @param nbDocMax
+	 */
 	public Etagere(ArrayList<Document> listeDocuments, int nbDocMax) {
 		this.listeDocuments = listeDocuments;
 		this.nbDocMax = nbDocMax;
@@ -24,7 +29,7 @@ public class Etagere {
 	
 	/**
 	 * 
-	 * @param auteur
+	 * @param auteur Le nom de l'auteur du livre
 	 */
 	public void rechercherDocument(String auteur){
 		boolean trouve = false;

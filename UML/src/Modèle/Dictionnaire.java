@@ -1,4 +1,4 @@
-package uml;
+package Modèle;
 
 public class Dictionnaire extends Document{
 	private String langue;

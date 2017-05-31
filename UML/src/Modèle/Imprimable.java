@@ -1,4 +1,4 @@
-package uml;
+package Modèle;
 
 public interface Imprimable {
 

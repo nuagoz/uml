@@ -1,4 +1,4 @@
-package uml;
+package Modèle;
 
 public abstract class Livre extends Document implements Imprimable{
 	protected String auteur;

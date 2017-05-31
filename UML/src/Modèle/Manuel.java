@@ -1,4 +1,4 @@
-package uml;
+package Modèle;
 
 public class Manuel extends Livre{
 	private int niveauScolaire;

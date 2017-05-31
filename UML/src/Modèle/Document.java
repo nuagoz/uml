@@ -1,4 +1,4 @@
-package uml;
+package Modèle;
 
 public abstract class Document {
 	protected int numEnregistrement;

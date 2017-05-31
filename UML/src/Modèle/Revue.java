@@ -1,4 +1,4 @@
-package uml;
+package Modèle;
 
 public class Revue extends Document{
 	private int mois;

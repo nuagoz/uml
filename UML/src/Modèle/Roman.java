@@ -1,4 +1,4 @@
-package uml;
+package Modèle;
 
 public class Roman extends Livre{
 	private String prixLitteraire;

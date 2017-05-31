@@ -1,6 +1,13 @@
-package uml;
+package Controleur;
 
 import java.util.ArrayList;
+
+import Modèle.Bibliotheque;
+import Modèle.Document;
+import Modèle.Etagere;
+import Modèle.Manuel;
+import Modèle.Revue;
+import Modèle.Roman;
 
 public class Main {
 	
