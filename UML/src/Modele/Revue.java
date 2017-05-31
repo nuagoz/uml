@@ -1,4 +1,4 @@
-package Modèle;
+package Modele;
 
 public class Revue extends Document{
 	private int mois;

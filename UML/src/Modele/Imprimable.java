@@ -1,4 +1,4 @@
-package Modèle;
+package Modele;
 
 public interface Imprimable {
 

@@ -2,12 +2,12 @@ package Controleur;
 
 import java.util.ArrayList;
 
-import Modèle.Bibliotheque;
-import Modèle.Document;
-import Modèle.Etagere;
-import Modèle.Manuel;
-import Modèle.Revue;
-import Modèle.Roman;
+import Modele.Bibliotheque;
+import Modele.Document;
+import Modele.Etagere;
+import Modele.Manuel;
+import Modele.Revue;
+import Modele.Roman;
 
 public class Main {
 	
@@ -37,7 +37,9 @@ public class Main {
 		etagere.tri();
 		etagere.listerDocuments();
 		System.out.println("--------");
-		l3.imprimer();
+		//l3.imprimer();
+		
+		etagere.rechercherDocument("");
 	}
 
 }

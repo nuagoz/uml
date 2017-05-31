@@ -1,4 +1,4 @@
-package Modèle;
+package Modele;
 
 public abstract class Document {
 	protected int numEnregistrement;

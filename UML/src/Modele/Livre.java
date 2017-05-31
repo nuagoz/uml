@@ -1,6 +1,6 @@
-package Modèle;
+package Modele;
 
-public abstract class Livre extends Document implements Imprimable{
+public class Livre extends Document /*implements Imprimable*/{
 	protected String auteur;
 	protected int nbPages;
 	
@@ -9,4 +9,12 @@ public abstract class Livre extends Document implements Imprimable{
 		this.auteur = auteur;
 		this.nbPages = nbPages;
 	}
+
+	/*
+	@Override
+	public void imprimer() {
+		// TODO Auto-generated method stub
+		
+	}*/
+
 }

@@ -1,4 +1,4 @@
-package Modèle;
+package Modele;
 
 public class Manuel extends Livre{
 	private int niveauScolaire;
@@ -12,12 +12,6 @@ public class Manuel extends Livre{
 	public String toString() {
 		return "Manuel [niveauScolaire=" + niveauScolaire + ", numEnregistrement=" + numEnregistrement + ", titre="
 				+ titre + ", etagere=" + etagere + "]";
-	}
-
-	@Override
-	public void imprimer() {
-		System.out.println("Imprime..."+toString());
-		
 	}
 
 }

@@ -1,4 +1,4 @@
-package Modèle;
+package Modele;
 
 public class Dictionnaire extends Document{
 	private String langue;

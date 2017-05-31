@@ -1,4 +1,4 @@
-package Modèle;
+package Modele;
 
 public class Roman extends Livre{
 	private String prixLitteraire;
@@ -14,9 +14,4 @@ public class Roman extends Livre{
 				+ titre + "]";
 	}
 
-	@Override
-	public void imprimer() {
-		System.out.println("Imprime..."+toString());
-		
-	}
 }
