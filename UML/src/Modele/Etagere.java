@@ -49,7 +49,7 @@ public class Etagere implements Imprimable{
 		for (int i=0; i<listeDocuments.size();i++)
         {
             if(listeDocuments.get(i) instanceof Livre && ((Livre) listeDocuments.get(i)).auteur.equals(auteur))
-                System.out.print(listeDocuments.get(i));
+                System.out.println("Document de l'auteur " + auteur + ": " + listeDocuments.get(i));
         }
 	}
 	
@@ -106,10 +106,10 @@ public class Etagere implements Imprimable{
 
 	@Override
 	public void imprimer() {
-        for (int i = 0; i < listeDocuments.size(); i++)
+        for (Document doc : listeDocuments)
         {
-            if(listeDocuments.get(i) instanceof Livre)
-                System.out.print(listeDocuments.get(i));
+            if(doc instanceof Livre)
+                System.out.println("Imprime : " + doc.toString() );
         }
 	}
 }

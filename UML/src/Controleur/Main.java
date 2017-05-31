@@ -19,10 +19,9 @@ public class Main {
 		
 		Roman l1 = new Roman(1,"Hello","Zoé", 56, null);
 		Roman l2 = new Roman(2,"Goodbye", "Adja", 75, "Goncourt");
-		Manuel l3 = new Manuel(3,"UML pour les nuls", "prof", 89, 3);
+		Manuel l3 = new Manuel(3,"UML", "Etienne", 89, 3);
 		
-		Revue r1 = new Revue(4,"Hzfedbq", 8, 1997);
-		
+		Revue r1 = new Revue(4,"Science et vie", 8, 1997);
 		
 		etagere.ajoutDocument(l1);
 		etagere.ajoutDocument(r1);
@@ -31,13 +30,15 @@ public class Main {
 		
 		etagere.listerDocuments();
 		
-		/*etagere.rechercherDocument("Hello");
-		etagere.rechercherDocument("Adja");*/
-		System.out.println("après tri");
+		etagere.rechercherDocument("Hello");
+		etagere.rechercherDocument("Adja");
+		System.out.println("--------");
+		
+		System.out.println("Etagère triée ");
 		etagere.tri();
 		etagere.listerDocuments();
 		System.out.println("--------");
-		//l3.imprimer();
+		etagere.imprimer();
 		
 		etagere.rechercherDocument("");
 	}

@@ -11,7 +11,7 @@ public class Manuel extends Livre{
 	@Override
 	public String toString() {
 		return "Manuel [niveauScolaire=" + niveauScolaire + ", numEnregistrement=" + numEnregistrement + ", titre="
-				+ titre + ", etagere=" + etagere + "]";
+				+ titre  + "]";
 	}
 
 }
